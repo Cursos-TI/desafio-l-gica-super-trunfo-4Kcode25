@@ -29,13 +29,19 @@ int main() {
        int Numero_de_ponto_Turisticos1;
        int Numero_de_ponto_Turisticos2;
 
+       float Densidade_Populacional1;
+       float Densidade_Populacional2;
+
+       float PIB_per_capita1;
+       float PIB_per_capita2;
+
     // Cadastro das Cartas:
        int Carta1;
        int Carta2;
     // Implemente a lógica para solicitar ao usuário que insira os dados das cidades
                     printf("--- Cadastro da Carta 1 ---\n");
 
-       printf("Digite o Seu Estado: \n");
+       printf("Digite o Seu Estado (Siglas,Ex: CE): \n");
        scanf(" %s", &Estado1);
 
        printf("Digite o Codigo do Carta (Ex: 0A1): \n");
@@ -56,12 +62,15 @@ int main() {
        printf("Digite os numero dos Pontos Turisticos: \n");
        scanf(" %s", &Nome_da_cidade1);
 
+       Densidade_Populacional1 = populacao1 / Area1;
+       PIB_per_capita1 = Pib1 / populacao1;
+
                   printf("--- Cadastro da Carta 2 ---\n");
 
        printf("Digite o Seu Estado: \n");
        scanf(" %s", &Estado2);
 
-       printf("Digite o Codigo do Carta (Ex: 0A1): \n");
+       printf("Digite o Codigo do Carta (Ex: 0B1): \n");
        scanf(" %s", &Codigo_da_carta2);
 
        printf("Digite o Nome da Cidade: \n");
@@ -78,6 +87,9 @@ int main() {
 
        printf("Digite os numero dos Pontos Turisticos: \n");
        scanf(" %s", &Nome_da_cidade2);
+
+        Densidade_Populacional2 = populacao2 / Area2;
+        PIB_per_capita2 = Pib2 / populacao2;
 
     // utilizando a função scanf para capturar as entradas.
     // utilize o código do primeiro desafio
