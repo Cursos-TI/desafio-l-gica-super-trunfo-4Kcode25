@@ -11,8 +11,11 @@ int main() {
        char Estado1[30];
        char Estado2[30];
 
-       int Codigo_da_carta1;
-       int Codigo_da_carta2;
+       char Codigo_da_carta1[10];
+       char Codigo_da_carta2[10];
+
+       char Nome_da_cidade1[50];
+       char Nome_da_cidade2[50];
 
        int populacao1;
        int populacao2;
@@ -25,12 +28,24 @@ int main() {
 
        int Numero_de_ponto_Turisticos1;
        int Numero_de_ponto_Turisticos2;
- 
 
     // Cadastro das Cartas:
        int Carta1;
        int Carta2;
     // Implemente a lógica para solicitar ao usuário que insira os dados das cidades
+                    printf("--- Cadastro da Carta 1 ---\n");
+
+       printf("Digite o Seu Estado: \n");
+       scanf(" %s", &Estado1);
+
+       printf("Digite o Codigo do : \n");
+       scanf(" %s", &Estado1);
+
+       printf("Digite o Seu Estado: \n");
+       scanf(" %s", &Estado1);
+
+
+
     // utilizando a função scanf para capturar as entradas.
     // utilize o código do primeiro desafio
 
