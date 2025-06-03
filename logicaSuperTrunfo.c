@@ -63,14 +63,12 @@ int main() {
        Densidade_Populacional1 = populacao1 / Area1;
        PIB_per_capita1 = Pib1 / populacao1;
 
-       printf("\n\n--- Comparação de Cartas (Atributo: População) ---\n");
-
-       printf("Carta 1 - %s (%s): Populacao %d\n", Codigo_da_carta1, Estado1, populacao1);
+       
 
 
                   printf("--- Cadastro da Carta 2 ---\n");
 
-       printf("Digite o Seu Estado: \n");
+       printf("Digite o Seu Estado (Siglas,Ex: CE): \n");
        scanf(" %s", &Estado2);
 
        printf("Digite o Codigo do Carta (Ex: 0B1): \n");
@@ -94,8 +92,10 @@ int main() {
         Densidade_Populacional2 = populacao2 / Area2;
         PIB_per_capita2 = Pib2 / populacao2;
 
-        printf("\n\n--- Comparação de Cartas 2 (Atributo: População) ---\n");
-        printf("Carta 2 - %s (%s): Populacao %d\n", Codigo_da_carta2, Estado2, populacao2);
+        printf("\n\n--- Comparação de Cartas (Atributo: População) ---\n");
+
+       printf("Carta 1 - %s (%s): Populacao %d\n", Codigo_da_carta1, Estado1, populacao1);
+       printf("Carta 2 - %s (%s): Populacao %d\n", Codigo_da_carta2, Estado2, populacao2);
 
         if(populacao1 > populacao2) {
             printf("Carta 1 %s Venceu!\n", Nome_da_cidade1);
@@ -106,7 +106,7 @@ int main() {
         }
 
         
-        }
+        
  
 
     // utilizando a função scanf para capturar as entradas.
