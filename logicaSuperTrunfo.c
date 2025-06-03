@@ -36,8 +36,6 @@ int main() {
        float PIB_per_capita2;
 
     // Cadastro das Cartas:
-       int Carta1;
-       int Carta2;
     // Implemente a lógica para solicitar ao usuário que insira os dados das cidades
                     printf("--- Cadastro da Carta 1 ---\n");
 
@@ -65,6 +63,11 @@ int main() {
        Densidade_Populacional1 = populacao1 / Area1;
        PIB_per_capita1 = Pib1 / populacao1;
 
+       printf("\n\n--- Comparação de Cartas (Atributo: População) ---\n");
+
+       printf("Carta 1 - %s (%s): Populacao %d\n", Codigo_da_carta1, Estado1, populacao1);
+
+
                   printf("--- Cadastro da Carta 2 ---\n");
 
        printf("Digite o Seu Estado: \n");
@@ -90,6 +93,21 @@ int main() {
 
         Densidade_Populacional2 = populacao2 / Area2;
         PIB_per_capita2 = Pib2 / populacao2;
+
+        printf("\n\n--- Comparação de Cartas 2 (Atributo: População) ---\n");
+        printf("Carta 2 - %s (%s): Populacao %d\n", Codigo_da_carta2, Estado2, populacao2);
+
+        if(populacao1 > populacao2) {
+            printf("Carta 1 %s Venceu!\n", Nome_da_cidade1);
+        } else if (populacao2 > populacao1) {
+            printf("Carta 2 %s Venceu!\n", Codigo_da_carta2);
+        } else {
+            printf("Empate na populacao!\n");
+        }
+
+        
+        }
+ 
 
     // utilizando a função scanf para capturar as entradas.
     // utilize o código do primeiro desafio
