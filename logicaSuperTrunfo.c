@@ -38,13 +38,46 @@ int main() {
        printf("Digite o Seu Estado: \n");
        scanf(" %s", &Estado1);
 
-       printf("Digite o Codigo do : \n");
-       scanf(" %s", &Estado1);
+       printf("Digite o Codigo do Carta (Ex: 0A1): \n");
+       scanf(" %s", &Codigo_da_carta1);
+
+       printf("Digite o Nome da Cidade: \n");
+       scanf(" %s", &Nome_da_cidade1);
+
+       printf("Digite a Populacao em: \n");
+       scanf(" %s", &populacao1);
+
+       printf("Digite a Area em (em km²): \n");
+       scanf(" %s", &Area1);
+
+       printf("Digite o pib (Em Bilhoes de R$): \n");
+       scanf(" %s", &Pib1);
+
+       printf("Digite os numero dos Pontos Turisticos: \n");
+       scanf(" %s", &Nome_da_cidade1);
+
+                  printf("--- Cadastro da Carta 2 ---\n");
 
        printf("Digite o Seu Estado: \n");
-       scanf(" %s", &Estado1);
+       scanf(" %s", &Estado2);
 
+       printf("Digite o Codigo do Carta (Ex: 0A1): \n");
+       scanf(" %s", &Codigo_da_carta2);
 
+       printf("Digite o Nome da Cidade: \n");
+       scanf(" %s", &Nome_da_cidade2);
+
+       printf("Digite a Populacao em: \n");
+       scanf(" %s", &populacao2);
+
+       printf("Digite a Area em (em km²): \n");
+       scanf(" %s", &Area2);
+
+       printf("Digite o pib (Em Bilhoes de R$): \n");
+       scanf(" %s", &Pib2);
+
+       printf("Digite os numero dos Pontos Turisticos: \n");
+       scanf(" %s", &Nome_da_cidade2);
 
     // utilizando a função scanf para capturar as entradas.
     // utilize o código do primeiro desafio
