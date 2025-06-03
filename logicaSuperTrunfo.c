@@ -14,9 +14,22 @@ int main() {
        int Codigo_da_carta1;
        int Codigo_da_carta2;
 
-       int
+       int populacao1;
+       int populacao2;
+
+       float Area1;
+       float Area2;
+
+       float Pib1;
+       float Pib2;
+
+       int Numero_de_ponto_Turisticos1;
+       int Numero_de_ponto_Turisticos2;
+ 
 
     // Cadastro das Cartas:
+       int Carta1;
+       int Carta2;
     // Implemente a lógica para solicitar ao usuário que insira os dados das cidades
     // utilizando a função scanf para capturar as entradas.
     // utilize o código do primeiro desafio
