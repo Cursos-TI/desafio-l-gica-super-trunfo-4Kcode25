@@ -8,8 +8,8 @@
 int main() {
     // Definição das variáveis para armazenar as propriedades das cidades
     // Você pode utilizar o código do primeiro desafio
-       char Estado1[30];
-       char Estado2[30];
+       char Estado1[50];
+       char Estado2[50];
 
        char Codigo_da_carta1[10];
        char Codigo_da_carta2[10];
@@ -58,7 +58,7 @@ int main() {
        scanf(" %s", &Pib1);
 
        printf("Digite os numero dos Pontos Turisticos: \n");
-       scanf(" %s", &Nome_da_cidade1);
+       scanf(" %s", &Numero_de_ponto_Turisticos1);
 
        Densidade_Populacional1 = populacao1 / Area1;
        PIB_per_capita1 = Pib1 / populacao1;
@@ -87,7 +87,7 @@ int main() {
        scanf(" %s", &Pib2);
 
        printf("Digite os numero dos Pontos Turisticos: \n");
-       scanf(" %s", &Nome_da_cidade2);
+       scanf(" %s", &Numero_de_ponto_Turisticos2);
 
         Densidade_Populacional2 = populacao2 / Area2;
         PIB_per_capita2 = Pib2 / populacao2;
@@ -100,7 +100,7 @@ int main() {
         if(populacao1 > populacao2) {
             printf("Carta 1 %s Venceu!\n", Nome_da_cidade1);
         } else if (populacao2 > populacao1) {
-            printf("Carta 2 %s Venceu!\n", Codigo_da_carta2);
+            printf("Carta 2 %s Venceu!\n", Nome_da_cidade2);
         } else {
             printf("Empate na populacao!\n");
         }
